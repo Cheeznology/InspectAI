@@ -5,7 +5,7 @@
 VerifAI uses Claude AI to review your code instantly, right inside your editor.
 No copy-pasting into ChatGPT. No switching tabs. One right-click.
 
-![VerifAI in action](media/screenshot.png)
+![VerifAI in action](media/icon.png)
 
 ---
 
