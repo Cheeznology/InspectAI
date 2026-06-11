@@ -2,46 +2,34 @@
 
 **Catch bugs, security issues, and AI hallucinations before you commit.**
 
-VerifAI uses Claude AI to review your code instantly, right inside your editor.
-No copy-pasting into ChatGPT. No switching tabs. One right-click.
-
-![VerifAI in action](media/icon.png)
-
----
+Stop copy-pasting code into ChatGPT. VerifAI reviews your code instantly with one right-click, right inside your editor.
 
 ## What It Does
 
-- 🔍 **Bug detection** — finds logic errors, null pointer risks, off-by-one errors
-- 🔒 **Security scanning** — catches SQL injection, hardcoded secrets, XSS risks
-- 🤖 **AI hallucination detection** — flags methods and APIs that don't exist
-- ⚡ **Instant results** — review appears in a panel inside your editor in seconds
-- 📊 **Risk score** — 0-100 score so you know at a glance how risky the code is
-
----
+- 🔍 **Bug detection** — logic errors, null pointer risks, off-by-one errors
+- 🔒 **Security scanning** — SQL injection, hardcoded secrets, XSS risks  
+- 🤖 **Hallucination detection** — flags APIs and methods that don't exist
+- 📊 **Risk score** — 0-100 score so you know instantly how risky the code is
+- ⚡ **One right-click** — no tab switching, no copy-pasting, no friction
 
 ## How To Use
 
-**Step 1 — Add your API key**
-Open Settings (`Ctrl+,`), search `verifai.apiKey`, paste your
-[Anthropic API key](https://console.anthropic.com/settings/keys).
+**Step 1** — Install VerifAI from the marketplace
 
-**Step 2 — Select code**
-Highlight any code in your editor.
+**Step 2** — Add your free API key:
+Press `Ctrl+,` → search `verifai.apiKey` → paste your free key from [console.groq.com](https://console.groq.com) (takes 60 seconds, no credit card)
 
-**Step 3 — Right-click → VerifAI: Review Selection**
-Results appear instantly in the VerifAI panel on the right.
+**Step 3** — Select any code → right-click → **VerifAI: Review Selection**
 
-> You can also review an entire file: right-click anywhere → **VerifAI: Review File**
-> Or use the Command Palette: `Ctrl+Shift+P` → type `VerifAI`
+Results appear instantly in the sidebar panel.
 
----
+> You can also review entire files: right-click anywhere → **VerifAI: Review File**
+> Or press `Ctrl+Shift+P` → type `VerifAI`
 
 ## Requirements
 
-- An [Anthropic API key](https://console.anthropic.com) (free to create, ~$0.001 per review)
+- A free [Groq API key](https://console.groq.com) — no credit card, takes 60 seconds
 - VS Code 1.85 or higher
-
----
 
 ## Pricing
 
@@ -51,22 +39,17 @@ Results appear instantly in the VerifAI panel on the right.
 | Starter | $4.99/month | Unlimited |
 | Pro | $9.99/month | Unlimited + team features |
 
-[Upgrade here](https://verifai.dev/upgrade)
-
----
+[Upgrade here →](https://verifai.dev/upgrade)
 
 ## Privacy
 
-Your code is sent to Anthropic's Claude API using **your own API key**.
-VerifAI itself never stores, logs, or transmits your code anywhere else.
-
----
+Your code is sent to Groq's API using **your own API key**.
+VerifAI never stores, logs, or transmits your code anywhere else.
 
 ## Support
 
 - Email: cheeznology@gmail.com
-- Issues: [GitHub](https://github.com/Cheeznology/verifai)
+- Issues: [github.com/Cheeznology/verifai](https://github.com/Cheeznology/verifai/issues)
 
 ---
-
-*VerifAI is not affiliated with Anthropic.*
+*VerifAI is not affiliated with Groq or Anthropic.*
