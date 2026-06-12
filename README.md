@@ -1,54 +1,106 @@
 # VerifAI — AI Code Review Inside VS Code
 
-**Catch bugs, security issues, and AI hallucinations before you commit.**
+Catch bugs, security issues, and unreliable AI-generated code before you commit.
 
-Stop copy-pasting code into ChatGPT. VerifAI reviews your code instantly with one right-click, right inside your editor.
+VerifAI reviews selected code directly inside VS Code, helping you identify potential issues without leaving your editor.
 
-## What It Does
+## Features
 
-- 🔍 **Bug detection** — logic errors, null pointer risks, off-by-one errors
-- 🔒 **Security scanning** — SQL injection, hardcoded secrets, XSS risks  
-- 🤖 **Hallucination detection** — flags APIs and methods that don't exist
-- 📊 **Risk score** — 0-100 score so you know instantly how risky the code is
-- ⚡ **One right-click** — no tab switching, no copy-pasting, no friction
+* 🔍 Bug detection
 
-## How To Use
+  * Logic errors
+  * Edge cases
+  * Null and undefined risks
+  * Common coding mistakes
 
-**Step 1** — Install VerifAI from the marketplace
+* 🔒 Security analysis
 
-**Step 2** — Add your free API key:
-Press `Ctrl+,` → search `verifai.apiKey` → paste your free key from [console.groq.com](https://console.groq.com) (takes 60 seconds, no credit card)
+  * SQL injection risks
+  * Hardcoded secrets
+  * Unsafe patterns
+  * Input validation issues
 
-**Step 3** — Select any code → right-click → **VerifAI: Review Selection**
+* 🤖 AI-generated code review
 
-Results appear instantly in the sidebar panel.
+  * Detects suspicious implementations
+  * Flags potentially incorrect API usage
+  * Highlights code that deserves manual verification
 
-> You can also review entire files: right-click anywhere → **VerifAI: Review File**
-> Or press `Ctrl+Shift+P` → type `VerifAI`
+* 📊 Risk scoring
+
+  * Quick visual indication of overall code quality and risk
+
+* ⚡ Integrated workflow
+
+  * Review code directly inside VS Code
+  * No copy-pasting required
+  * Works from the editor context menu and command palette
+
+## Installation
+
+Install VerifAI from the Visual Studio Code Marketplace.
+
+Marketplace:
+
+https://marketplace.visualstudio.com/items?itemName=cheeznology.verifai
+
+## Setup
+
+1. Open VS Code Settings.
+
+2. Search for:
+
+   verifai.apiKey
+
+3. Enter your API key.
+
+## Usage
+
+### Review Selected Code
+
+1. Select code in the editor.
+
+2. Right-click.
+
+3. Choose:
+
+   VerifAI: Review Selection
+
+4. View results in the VerifAI panel.
+
+### Review an Entire File
+
+1. Open a file.
+
+2. Open the Command Palette:
+
+   Ctrl+Shift+P
+
+3. Run:
+
+   VerifAI: Review File
 
 ## Requirements
 
-- A free [Groq API key](https://console.groq.com) — no credit card, takes 60 seconds
-- VS Code 1.85 or higher
-
-## Pricing
-
-| Tier | Price | Reviews |
-|------|-------|---------|
-| Free | $0 | 25 reviews/month |
-| Starter | $4.99/month | Unlimited |
-| Pro | $9.99/month | Unlimited + team features |
-
-[Upgrade here →](https://verifai.dev/upgrade)
+* Valid API key
+* VS Code 1.85 or newer
 
 ## Privacy
 
-Your code is sent to Groq's API using **your own API key**.
-VerifAI never stores, logs, or transmits your code anywhere else.
+VerifAI processes code only when you request a review.
+
+No review is performed automatically.
 
 ## Support
 
-- Email: cheeznology@gmail.com
-- Issues & Questions: [Click Here](https://github.com/Cheeznology/verifai/issues)
+GitHub Issues:
+
+https://github.com/Cheeznology/verifai/issues
+
+Email:
+
+[cheeznology@gmail.com](mailto:cheeznology@gmail.com)
+
 ---
-*VerifAI is not affiliated with Groq or Anthropic.*
+
+VerifAI is an independent project and is not affiliated with any AI provider.
