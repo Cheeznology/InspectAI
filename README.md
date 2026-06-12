@@ -1,8 +1,8 @@
 # InspectAI — AI Code Review Inside VS Code
 
-Catch bugs, security issues, and unreliable AI-generated code before you commit.
+Helps catch bugs, security issues, and mistakes in AI-generated code before you commit.
 
-InspectAI reviews selected code directly inside VS Code, helping you identify potential issues without leaving your editor.
+InspectAI runs locally inside VS Code and analyzes selected code using AI-powered review models, helping you identify potential issues without leaving your editor.
 
 ## Features
 
