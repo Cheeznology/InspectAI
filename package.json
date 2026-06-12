@@ -1,0 +1,172 @@
+{
+  "name": "inspectai",
+  "displayName": "InspectAI",
+  "description": "AI-powered code review that catches bugs, security issues, and hallucinations before you commit.",
+  "version": "0.1.4",
+  "publisher": "cheeznology",
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cheeznology/inspectai"
+  },
+  "bugs": {
+    "url": "https://github.com/Cheeznology/inspectai/issues"
+  },
+  "homepage": "https://github.com/Cheeznology/inspectai#readme",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Linters",
+    "Other"
+  ],
+  "keywords": [
+    "ai",
+    "code review",
+    "groq",
+    "security",
+    "bug detection"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "colors": [
+      {
+        "id": "statusBarItem.warningBackground",
+        "description": "InspectAI active status bar background (green).",
+        "defaults": {
+          "dark": "#238636",
+          "light": "#2da44e",
+          "highContrast": "#3fb950"
+        }
+      },
+      {
+        "id": "statusBarItem.warningForeground",
+        "description": "InspectAI active status bar foreground.",
+        "defaults": {
+          "dark": "#ffffff",
+          "light": "#ffffff",
+          "highContrast": "#000000"
+        }
+      }
+    ],
+    "commands": [
+      {
+        "command": "inspectai.reviewSelection",
+        "title": "InspectAI: Review Selection",
+        "icon": "$(search)"
+      },
+      {
+        "command": "inspectai.reviewFile",
+        "title": "InspectAI: Review File",
+        "icon": "$(file-code)"
+      },
+      {
+        "command": "inspectai.clearDecorations",
+        "title": "InspectAI: Clear Decorations",
+        "icon": "$(clear-all)"
+      },
+      {
+        "command": "inspectai.openSettings",
+        "title": "InspectAI: Open Settings",
+        "icon": "$(gear)"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "inspectai.reviewSelection",
+          "when": "editorHasSelection",
+          "group": "inspectai@1"
+        },
+        {
+          "command": "inspectai.reviewFile",
+          "group": "inspectai@2"
+        }
+      ]
+    },
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "inspectai",
+          "title": "InspectAI",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "inspectai": [
+        {
+          "type": "webview",
+          "id": "inspectaiReview",
+          "name": "Code Review"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "InspectAI",
+      "properties": {
+        "inspectai.apiKey": {
+          "type": "string",
+          "default": "",
+          "markdownDescription": "Free Groq API key. Get one in 60 seconds at console.groq.com — no credit card needed. Key starts with gsk_",
+          "order": 1
+        },
+        "inspectai.licenseKey": {
+          "type": "string",
+          "default": "",
+          "markdownDescription": "InspectAI license key for Starter/Pro tier. Get one at [inspectai.dev/upgrade](https://inspectai.dev/upgrade).",
+          "order": 2
+        },
+        "inspectai.riskThreshold": {
+          "type": "number",
+          "default": 50,
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Risk score threshold for warnings.",
+          "order": 3
+        },
+        "inspectai.autoReviewOnSave": {
+          "type": "boolean",
+          "default": false,
+          "description": "Automatically review files on save.",
+          "order": 4
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "npm run check-types && npm run lint && node esbuild.js",
+    "watch": "npm-run-all -p watch:*",
+    "watch:esbuild": "node esbuild.js --watch",
+    "watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
+    "package": "npm run check-types && npm run lint && node esbuild.js --production",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@types/vscode": "^1.85.0",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2",
+    "esbuild": "^0.27.3",
+    "eslint": "^9.39.3",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.56.1"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}
