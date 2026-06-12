@@ -49,7 +49,6 @@ VerifAI never stores, logs, or transmits your code anywhere else.
 ## Support
 
 - Email: cheeznology@gmail.com
-- Issues: [github.com/Cheeznology/verifai](https://github.com/Cheeznology/verifai/issues)
-
+- Issues & Questions: [Click Here](https://github.com/Cheeznology/verifai/issues)
 ---
 *VerifAI is not affiliated with Groq or Anthropic.*
