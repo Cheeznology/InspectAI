@@ -1,8 +1,8 @@
-# VerifAI — AI Code Review Inside VS Code
+# InspectAI — AI Code Review Inside VS Code
 
 Catch bugs, security issues, and unreliable AI-generated code before you commit.
 
-VerifAI reviews selected code directly inside VS Code, helping you identify potential issues without leaving your editor.
+InspectAI reviews selected code directly inside VS Code, helping you identify potential issues without leaving your editor.
 
 ## Features
 
@@ -24,7 +24,7 @@ VerifAI reviews selected code directly inside VS Code, helping you identify pote
 
   * Detects suspicious implementations
   * Flags potentially incorrect API usage
-  * Highlights code that deserves manual verification
+  * Highlights code that deserves a closer manual review
 
 * 📊 Risk scoring
 
@@ -36,13 +36,22 @@ VerifAI reviews selected code directly inside VS Code, helping you identify pote
   * No copy-pasting required
   * Works from the editor context menu and command palette
 
+## Try it with sample code
+
+Clone this repo and open the `samples/` folder:
+
+* `samples/01-clean-example.ts` — well-structured code (low risk)
+* `samples/02-buggy-example.ts` — intentional bugs for demos (higher risk)
+
+Select a function → right-click → **InspectAI: Review Selection**.
+
 ## Installation
 
-Install VerifAI from the Visual Studio Code Marketplace.
+Install InspectAI from the Visual Studio Code Marketplace.
 
 Marketplace:
 
-https://marketplace.visualstudio.com/items?itemName=cheeznology.verifai
+https://marketplace.visualstudio.com/items?itemName=cheeznology.inspectai
 
 ## Setup
 
@@ -50,7 +59,7 @@ https://marketplace.visualstudio.com/items?itemName=cheeznology.verifai
 
 2. Search for:
 
-   verifai.apiKey
+   inspectai.apiKey
 
 3. Enter your API key.
 
@@ -64,9 +73,9 @@ https://marketplace.visualstudio.com/items?itemName=cheeznology.verifai
 
 3. Choose:
 
-   VerifAI: Review Selection
+   InspectAI: Review Selection
 
-4. View results in the VerifAI panel.
+4. View results in the InspectAI panel.
 
 ### Review an Entire File
 
@@ -78,7 +87,7 @@ https://marketplace.visualstudio.com/items?itemName=cheeznology.verifai
 
 3. Run:
 
-   VerifAI: Review File
+   InspectAI: Review File
 
 ## Requirements
 
@@ -87,7 +96,7 @@ https://marketplace.visualstudio.com/items?itemName=cheeznology.verifai
 
 ## Privacy
 
-VerifAI processes code only when you request a review.
+InspectAI processes code only when you request a review.
 
 No review is performed automatically.
 
@@ -95,7 +104,7 @@ No review is performed automatically.
 
 GitHub Issues:
 
-https://github.com/Cheeznology/verifai/issues
+https://github.com/Cheeznology/inspectai/issues
 
 Email:
 
@@ -103,4 +112,4 @@ Email:
 
 ---
 
-VerifAI is an independent project and is not affiliated with any AI provider.
+InspectAI is an independent project and is not affiliated with any AI provider.
