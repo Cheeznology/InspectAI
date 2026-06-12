@@ -35,6 +35,8 @@ InspectAI runs locally inside VS Code and analyzes selected code using AI-powere
   * Review code directly inside VS Code
   * No copy-pasting required
   * Works from the editor context menu and command palette
+ 
+- - -
 
 ## Try it with sample code
 
@@ -45,6 +47,8 @@ Clone this repo and open the `samples/` folder:
 
 Select a function → right-click → **InspectAI: Review Selection**.
 
+- - -
+
 ## Installation
 
 Install InspectAI from the Visual Studio Code Marketplace.
@@ -52,6 +56,8 @@ Install InspectAI from the Visual Studio Code Marketplace.
 Marketplace:
 
 https://marketplace.visualstudio.com/items?itemName=cheeznology.inspectai
+
+- - -
 
 ## Setup
 
@@ -62,6 +68,8 @@ https://marketplace.visualstudio.com/items?itemName=cheeznology.inspectai
    inspectai.apiKey
 
 3. Enter your API key.
+
+- - -
 
 ## Usage
 
@@ -89,16 +97,22 @@ https://marketplace.visualstudio.com/items?itemName=cheeznology.inspectai
 
    InspectAI: Review File
 
+- - -   
+
 ## Requirements
 
 * Valid API key
 * VS Code 1.85 or newer
+
+- - -
 
 ## Privacy
 
 InspectAI processes code only when you request a review.
 
 No review is performed automatically.
+
+- - -
 
 ## Project Status
 
@@ -109,15 +123,29 @@ Planned improvements:
 - Faster review performance
 - More language support
 
+- - -
+
+## Screenshots
+
+### Welcome Page 
+![image alt](https://github.com/Cheeznology/InspectAI/blob/main/screenshot-welcome-page.png?raw=true)
+
+### Right-Click Menu
+![image alt](https://github.com/Cheeznology/InspectAI/blob/main/right-click-menu.png?raw=true)
+
+### Positive Review (Example)
+![positive review](https://github.com/Cheeznology/InspectAI/blob/main/screenshot-positive-review.png?raw=true)
+
+### Negative Review (Example)
+![Risk Score](https://github.com/Cheeznology/InspectAI/blob/main/screenshot-negative-review.png?raw=true)
+
+- - -
+
 ## Support
 
-GitHub Issues:
+GitHub Issues: https://github.com/Cheeznology/inspectai/issues
 
-https://github.com/Cheeznology/inspectai/issues
-
-Email:
-
-[cheeznology@gmail.com](mailto:cheeznology@gmail.com)
+Email: [cheeznology@gmail.com](mailto:cheeznology@gmail.com)
 
 ---
 
