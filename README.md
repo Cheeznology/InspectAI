@@ -1,4 +1,4 @@
-# InspectAI — AI Code Review Inside VS Code
+# InspectAI 
 
 Helps catch bugs, security issues, and mistakes in AI-generated code before you commit.
 
