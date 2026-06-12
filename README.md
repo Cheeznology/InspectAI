@@ -102,7 +102,7 @@ No review is performed automatically.
 
 ## Contact
 - Email: cheeznology@gmail.com
-- Issues: https://github.com/Cheeznology
+- Issues: [Click Here](https://github.com/Cheeznology/InspectAI/issues)
 ---
 
 InspectAI is an independent project and is not affiliated with any AI provider.
