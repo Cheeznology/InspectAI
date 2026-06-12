@@ -100,6 +100,15 @@ InspectAI processes code only when you request a review.
 
 No review is performed automatically.
 
+## Project Status
+
+InspectAI is actively being developed. Feedback and bug reports are welcome.
+
+Planned improvements:
+- Better code explanations
+- Faster review performance
+- More language support
+
 ## Support
 
 GitHub Issues:
