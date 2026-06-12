@@ -100,9 +100,9 @@ InspectAI processes code only when you request a review.
 
 No review is performed automatically.
 
-## 📬 Contact
+## Contact
 - Email: cheeznology@gmail.com
-- GitHu Issues: https://github.com/Cheeznology
+- Issues: https://github.com/Cheeznology
 ---
 
 InspectAI is an independent project and is not affiliated with any AI provider.
