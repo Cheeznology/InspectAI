@@ -2,9 +2,15 @@
 
 [![Install InspectAI](https://img.shields.io/visual-studio-marketplace/v/cheeznology.inspectai?label=Install%20InspectAI&logo=visual-studio-code&color=blue)](https://marketplace.visualstudio.com/items?itemName=cheeznology.inspectai)
 
-Helps catch bugs, security issues, and mistakes in AI-generated code before you commit.
+⭐ If this helps your workflow, consider starring the repo.
+
+- - -
+
+## What is InspectAI?
 
 InspectAI runs locally inside VS Code and analyzes selected code using AI-powered review models, helping you identify potential issues without leaving your editor.
+
+Helps catch bugs, security issues, and mistakes in AI-generated code before you commit.
 
 ## Features
 
