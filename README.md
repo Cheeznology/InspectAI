@@ -141,11 +141,11 @@ Planned improvements:
 ### Right-Click Menu
 ![image alt](https://github.com/Cheeznology/InspectAI/blob/main/right-click-menu.png?raw=true)
 
-### Positive Review (Example)
-![positive review](https://github.com/Cheeznology/InspectAI/blob/main/screenshot-positive-review.png?raw=true)
+### No Issues Detected
+![positive review](https://github.com/Cheeznology/InspectAI/blob/main/no-issues-detected.png?raw=true)
 
-### Negative Review (Example)
-![Risk Score](https://github.com/Cheeznology/InspectAI/blob/main/screenshot-negative-review.png?raw=true)
+### Issues Detected (Example)
+![alt](https://github.com/Cheeznology/InspectAI/blob/b202db644a96c62fe60221a38687e4f9c92cf37f/issues-detected.png?raw=true)
 
 - - -
 
