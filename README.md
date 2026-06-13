@@ -14,31 +14,33 @@ Helps catch bugs, security issues, and mistakes in AI-generated code before you 
 
 ## Features
 
-* 🔍 Bug detection
+* 🔍 AI bug detection
 
   * Logic errors
   * Edge cases
   * Null and undefined risks
   * Common coding mistakes
 
-* 🔒 Security analysis
+* 🔒 Security issue detection
 
   * SQL injection risks
   * Hardcoded secrets
   * Unsafe patterns
   * Input validation issues
 
-* 🤖 AI-generated code review
+* 🛠 One-click AI fixes
 
-  * Detects suspicious implementations
-  * Flags potentially incorrect API usage
-  * Highlights code that deserves a closer manual review
+  * Automatically generates corrected code for each issue
+  * Shows Before → After comparison
+  * Apply fixes directly into your editor with a single click
+ 
+* ⚡ Automatic re-check system
 
-* 📊 Risk scoring
+  * Re-analyzes code after fixes are applied
+  * Confirms whether issues are fully resolved
+  * Ensures code stays clean after updates
 
-  * Quick visual indication of overall code quality and risk
-
-* ⚡ Integrated workflow
+* ⚡ VS Code integrated workflow
 
   * Review code directly inside VS Code
   * No copy-pasting required
